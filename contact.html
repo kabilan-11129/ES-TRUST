@@ -1,0 +1,343 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact &amp; Donate – Eyandradhai Seivom | NGO Chennai</title>
+  <meta name="description" content="Contact Eyandradhai Seivom or donate to support education, women empowerment and elder care programs in Chennai, Tamil Nadu. Bank details, UPI, and contact form.">
+  <meta property="og:title" content="Contact &amp; Donate – Eyandradhai Seivom NGO Chennai">
+  <meta property="og:description" content="Reach out to Eyandradhai Seivom or make a donation to support our community programs in Chennai.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="images/hero.jpg">
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ═══════════════ HEADER ═══════════════ -->
+<header id="header" role="banner">
+  <div class="container">
+    <nav class="nav-inner" aria-label="Main navigation">
+      <a href="index.html" class="nav-logo" aria-label="Eyandradhai Seivom Home"><img src="images/logo.jpg" alt="Eyandradhai Seivom Logo" class="nav-logo-img"><div class="nav-logo-text"><span class="logo-main">EYANDRADHAI SEIVOM</span><span class="logo-sub">Charitable Trust · Chennai</span></div></a>
+      <ul class="nav-links" role="list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li class="dropdown">
+          <a href="services.html" aria-haspopup="true">Services <i class="fa-solid fa-chevron-down fa-xs"></i></a>
+          <ul class="dropdown-menu" role="list">
+            <li><a href="services.html#education"><i class="fa-solid fa-book-open"></i> Education</a></li>
+            <li><a href="services.html#women-empowerment"><i class="fa-solid fa-venus"></i> Women Empowerment</a></li>
+            <li><a href="services.html#helping-elders"><i class="fa-solid fa-hand-holding-heart"></i> Helping Elders</a></li>
+          </ul>
+        </li>
+        <li><a href="contact.html" class="nav-cta active"><i class="fa-solid fa-heart"></i> Donate / Contact</a></li>
+      </ul>
+      <button class="hamburger" aria-label="Toggle mobile menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+    <nav class="mobile-menu" aria-label="Mobile navigation">
+      <a href="index.html"><i class="fa-solid fa-house"></i> Home</a>
+      <a href="about.html"><i class="fa-solid fa-users"></i> About Us</a>
+      <a href="services.html"><i class="fa-solid fa-hands-helping"></i> Services</a>
+      <div class="mobile-sub">
+        <a href="services.html#education"><i class="fa-solid fa-book-open"></i> Education</a>
+        <a href="services.html#women-empowerment"><i class="fa-solid fa-venus"></i> Women Empowerment</a>
+        <a href="services.html#helping-elders"><i class="fa-solid fa-hand-holding-heart"></i> Helping Elders</a>
+      </div>
+      <a href="contact.html" class="nav-cta active"><i class="fa-solid fa-heart"></i> Donate / Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main-content">
+
+<!-- ═══════════════ PAGE BANNER ═══════════════ -->
+<section class="page-banner" aria-label="Page header">
+  <div class="container">
+    <h1>Contact &amp; Donate</h1>
+    <nav class="breadcrumb" aria-label="Breadcrumb">
+      <a href="index.html">Home</a>
+      <i class="fa-solid fa-chevron-right fa-xs" aria-hidden="true"></i>
+      <span aria-current="page">Contact / Donate</span>
+    </nav>
+  </div>
+</section>
+
+<!-- ═══════════════ CONTACT SECTION ═══════════════ -->
+<section class="section-pad-lg" aria-labelledby="contact-heading">
+  <div class="container">
+    <div class="section-title-wrap text-center reveal">
+      <h2 class="section-title" id="contact-heading">Get in Touch</h2>
+      <div class="divider"></div>
+      <p class="section-subtitle">We'd love to hear from you — reach out for partnerships, volunteering, or any queries.</p>
+    </div>
+    <div class="contact-grid">
+      <!-- Contact Form -->
+      <div class="contact-form-wrap reveal">
+        <h3><i class="fa-solid fa-paper-plane" style="color:var(--saffron);"></i> &nbsp;Send Us a Message</h3>
+        <form id="contactForm" novalidate aria-label="Contact form">
+          <div class="form-group">
+            <label for="fname">Full Name <span style="color:#e53e3e;">*</span></label>
+            <input type="text" id="fname" name="name" placeholder="Your full name" autocomplete="name" required aria-required="true" aria-describedby="fnameErr">
+            <div class="error-msg" id="fnameErr" role="alert">Please enter your name (at least 2 characters).</div>
+          </div>
+          <div class="form-group">
+            <label for="femail">Email Address <span style="color:#e53e3e;">*</span></label>
+            <input type="email" id="femail" name="email" placeholder="your@email.com" autocomplete="email" required aria-required="true" aria-describedby="femailErr">
+            <div class="error-msg" id="femailErr" role="alert">Please enter a valid email address.</div>
+          </div>
+          <div class="form-group">
+            <label for="fphone">Phone Number <span style="color:var(--text-light);font-weight:400;">(Optional)</span></label>
+            <input type="tel" id="fphone" name="phone" placeholder="10-digit mobile number" autocomplete="tel" aria-describedby="fphoneErr">
+            <div class="error-msg" id="fphoneErr" role="alert">Please enter a valid 10-digit Indian mobile number.</div>
+          </div>
+          <div class="form-group">
+            <label for="fmessage">Message <span style="color:#e53e3e;">*</span></label>
+            <textarea id="fmessage" name="message" placeholder="How can we help you, or how would you like to help us?" required aria-required="true" aria-describedby="fmessageErr"></textarea>
+            <div class="error-msg" id="fmessageErr" role="alert">Please enter your message (at least 10 characters).</div>
+          </div>
+          <button type="submit" class="btn btn-primary" style="width:100%;justify-content:center;">
+            <i class="fa-solid fa-paper-plane"></i> Send Message
+          </button>
+          <p style="font-size:0.78rem;color:var(--text-light);margin-top:0.75rem;text-align:center;">
+            This form uses your email client to send the message. Your data is not stored on any server.
+          </p>
+        </form>
+      </div>
+
+      <!-- Contact Info -->
+      <div class="contact-info-wrap reveal reveal-delay-1">
+        <!-- Address -->
+        <div class="info-card">
+          <div class="info-icon"><i class="fa-solid fa-location-dot"></i></div>
+          <div>
+            <h4>Our Address</h4>
+            <!-- TODO: Replace with real trust address -->
+            <p>[Trust Address Line 1]<br>[Area, Chennai – PIN Code]<br>Tamil Nadu, India</p>
+          </div>
+        </div>
+        <!-- Phone -->
+        <div class="info-card">
+          <div class="info-icon"><i class="fa-solid fa-phone"></i></div>
+          <div>
+            <h4>Phone / WhatsApp</h4>
+            <a href="tel:+917010489824">+91 70104 89824</a>
+            <br>
+            <a href="https://wa.me/917010489824?text=Hello%20Eyandradhai%20Seivom%2C%20I%20would%20like%20to%20know%20more."
+               target="_blank" rel="noopener noreferrer"
+               style="color:#25d366;display:inline-flex;align-items:center;gap:0.4rem;margin-top:0.4rem;font-size:0.9rem;">
+              <i class="fa-brands fa-whatsapp"></i> Chat on WhatsApp
+            </a>
+          </div>
+        </div>
+        <!-- Email -->
+        <div class="info-card">
+          <div class="info-icon"><i class="fa-solid fa-envelope"></i></div>
+          <div>
+            <h4>Email</h4>
+            <!-- TODO: Replace with real trust email address -->
+            <a href="mailto:estrust003@gmail.com">estrust003@gmail.com</a>
+            <p style="font-size:0.8rem;margin-top:0.3rem;">We respond within 1–2 business days.</p>
+          </div>
+        </div>
+        <!-- Map -->
+        <div class="map-wrap">
+          <!-- TODO: Replace with the actual trust location on Google Maps -->
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d248849.88555329858!2d80.00000000000001!3d13.0827!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5265ea4f7d3361%3A0x6e61a70b6863d433!2sChennai%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin"
+            allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+            title="Eyandradhai Seivom location in Chennai, Tamil Nadu">
+          </iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════ DONATE SECTION ═══════════════ -->
+<section id="donate" class="section-pad-lg donate-section" aria-labelledby="donate-heading">
+  <div class="container">
+    <div class="section-title-wrap text-center reveal">
+      <h2 class="section-title" id="donate-heading"><i class="fa-solid fa-heart" style="color:var(--saffron);"></i> Make a Donation</h2>
+      <div class="divider"></div>
+    </div>
+    <div class="donate-intro reveal">
+      <p>Your generous donation directly funds our programs for children's education, women's skill training, and elder care across Chennai. Every rupee is used transparently and purposefully to create lasting impact in the community.</p>
+      <div style="display:flex;flex-wrap:wrap;justify-content:center;gap:1rem;margin-top:1.5rem;">
+        <div style="background:rgba(232,117,26,0.08);border:1px solid rgba(232,117,26,0.2);padding:0.8rem 1.4rem;border-radius:50px;font-size:0.88rem;font-weight:600;color:var(--saffron);">
+          <i class="fa-solid fa-book-open"></i> &nbsp;₹500 – School kit for 1 child
+        </div>
+        <div style="background:rgba(15,94,92,0.08);border:1px solid rgba(15,94,92,0.2);padding:0.8rem 1.4rem;border-radius:50px;font-size:0.88rem;font-weight:600;color:var(--teal);">
+          <i class="fa-solid fa-venus"></i> &nbsp;₹1,000 – Training material for 1 woman
+        </div>
+        <div style="background:rgba(232,117,26,0.08);border:1px solid rgba(232,117,26,0.2);padding:0.8rem 1.4rem;border-radius:50px;font-size:0.88rem;font-weight:600;color:var(--saffron);">
+          <i class="fa-solid fa-hand-holding-heart"></i> &nbsp;₹2,000 – Monthly food &amp; care for 1 elder
+        </div>
+      </div>
+    </div>
+
+    <div class="donate-grid">
+      <!-- Bank Details Card -->
+      <div class="bank-card reveal">
+        <h3><i class="fa-solid fa-building-columns"></i> Bank Transfer Details</h3>
+        <div class="bank-row">
+          <span class="blabel">Account Name</span>
+          <!-- TODO: Replace with actual trust bank account name -->
+          <span class="bvalue">EYANDRADHAI SEIVOM CHARITABLE TRUST</span>
+        </div>
+        <div class="bank-row">
+          <span class="blabel">Account No.</span>
+          <!-- TODO: Replace with actual bank account number -->
+          <span class="bvalue" id="accNo">[ACCOUNT NUMBER]</span>
+          <button class="copy-btn" data-copy="[ACCOUNT NUMBER]" aria-label="Copy account number">Copy</button>
+        </div>
+        <div class="bank-row">
+          <span class="blabel">IFSC Code</span>
+          <!-- TODO: Replace with actual IFSC code -->
+          <span class="bvalue" id="ifsc">[IFSC CODE]</span>
+          <button class="copy-btn" data-copy="[IFSC CODE]" aria-label="Copy IFSC code">Copy</button>
+        </div>
+        <div class="bank-row">
+          <span class="blabel">Bank &amp; Branch</span>
+          <!-- TODO: Replace with actual bank name and branch -->
+          <span class="bvalue">[Bank Name], [Branch]</span>
+        </div>
+        <div class="bank-row">
+          <span class="blabel">UPI ID</span>
+          <!-- TODO: Replace with actual UPI ID -->
+          <span class="bvalue" id="upiId">[UPI ID]@[bank]</span>
+          <button class="copy-btn" data-copy="[UPI ID]@[bank]" aria-label="Copy UPI ID">Copy</button>
+        </div>
+      </div>
+
+      <!-- QR Code Card -->
+      <div class="qr-card reveal reveal-delay-1">
+        <h3><i class="fa-solid fa-qrcode" style="color:var(--saffron);"></i> &nbsp;Scan &amp; Pay via UPI</h3>
+        <!-- TODO: Replace with actual UPI QR code image -->
+        <div class="qr-placeholder">
+          <i class="fa-solid fa-qrcode"></i>
+        </div>
+        <p style="font-size:0.85rem;color:var(--text-light);">Scan this QR code using any UPI app<br>(PhonePe, GPay, Paytm, BHIM, etc.)</p>
+        <!-- TODO: Replace [UPI ID] with actual UPI ID below -->
+        <p style="font-weight:600;color:var(--teal-dark);font-size:0.9rem;">UPI: <span>[UPI ID]@[bank]</span></p>
+
+        <!-- WhatsApp after donation -->
+        <div style="margin-top:1rem;text-align:center;">
+          <p style="font-size:0.82rem;color:var(--text-mid);margin-bottom:0.5rem;">After donating, send us a screenshot on WhatsApp:</p>
+          <a href="https://wa.me/917010489824?text=Hello%20Eyandradhai%20Seivom%2C%20I%20have%20made%20a%20donation.%20Please%20find%20my%20screenshot."
+             target="_blank" rel="noopener noreferrer"
+             class="btn btn-sm"
+             style="background:#25d366;color:#fff;border-radius:50px;display:inline-flex;align-items:center;gap:0.5rem;">
+            <i class="fa-brands fa-whatsapp"></i> Send via WhatsApp
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Tax Note -->
+    <!-- TODO: Confirm 80G status and update accordingly -->
+    <div class="tax-note reveal" style="margin-top:2rem;">
+      <i class="fa-solid fa-circle-info" style="color:var(--teal);"></i>
+      <strong> Donations may be eligible for 80G tax exemption</strong> under Section 80G of the Income Tax Act, 1961.
+      Please request a receipt from us after your donation. <!-- TODO: Verify and update this statement with actual 80G registration details -->
+      <br><span style="font-size:0.82rem;color:var(--text-mid);">For receipts and tax certificates, contact us at <a href="mailto:estrust003@gmail.com" style="color:var(--teal);">estrust003@gmail.com</a></span>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════ CTA BANNER ═══════════════ -->
+<section class="cta-banner">
+  <div class="container">
+    <h2>Every Rupee Counts</h2>
+    <p>Help us continue our work in Chennai. Your kindness today becomes someone's hope tomorrow.</p>
+    <a href="https://wa.me/917010489824?text=Hello%20Eyandradhai%20Seivom%2C%20I%20would%20like%20to%20volunteer%20or%20support%20your%20work."
+       target="_blank" rel="noopener noreferrer"
+       class="btn btn-outline">
+      <i class="fa-brands fa-whatsapp"></i> Contact Us on WhatsApp
+    </a>
+  </div>
+</section>
+
+</main>
+
+<!-- ═══════════════ FOOTER ═══════════════ -->
+<footer class="footer" role="contentinfo">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="logo-main">EYANDRADHAI SEIVOM</div>
+        <div class="logo-sub">Charitable Trust · Chennai</div>
+        <p>A Chennai-based NGO dedicated to education, women empowerment, and helping elders.</p>
+        <div class="footer-contact-icons" style="margin-top:1.5rem;">
+          <a href="https://wa.me/917010489824?text=Hello%20Eyandradhai%20Seivom%2C%20I%20would%20like%20to%20know%20more."
+             class="footer-icon-link whatsapp" target="_blank" rel="noopener noreferrer"
+             aria-label="Chat on WhatsApp with Eyandradhai Seivom">
+            <i class="fa-brands fa-whatsapp"></i>
+          </a>
+          <a href="mailto:estrust003@gmail.com" class="footer-icon-link email" aria-label="Send email to Eyandradhai Seivom">
+            <i class="fa-solid fa-envelope"></i>
+          </a>
+          <a href="tel:+917010489824" class="footer-icon-link phone" aria-label="Call Eyandradhai Seivom">
+            <i class="fa-solid fa-phone"></i>
+          </a><a href="https://www.instagram.com/eyandrathaiseivom_official/" class="footer-icon-link instagram" target="_blank" rel="noopener noreferrer" aria-label="Follow on Instagram"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+      </div>
+      <div>
+        <h4>Quick Links</h4>
+        <ul class="footer-links">
+          <li><a href="index.html"><i class="fa-solid fa-circle fa-xs"></i> Home</a></li>
+          <li><a href="about.html"><i class="fa-solid fa-circle fa-xs"></i> About Us</a></li>
+          <li><a href="services.html"><i class="fa-solid fa-circle fa-xs"></i> Services</a></li>
+          <li><a href="contact.html"><i class="fa-solid fa-circle fa-xs"></i> Contact</a></li>
+          <li><a href="contact.html#donate"><i class="fa-solid fa-circle fa-xs"></i> Donate</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Our Services</h4>
+        <ul class="footer-links">
+          <li><a href="services.html#education"><i class="fa-solid fa-circle fa-xs"></i> Education</a></li>
+          <li><a href="services.html#women-empowerment"><i class="fa-solid fa-circle fa-xs"></i> Women Empowerment</a></li>
+          <li><a href="services.html#helping-elders"><i class="fa-solid fa-circle fa-xs"></i> Helping Elders</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contact Us</h4>
+        <ul class="footer-links">
+          <li style="color:rgba(255,255,255,0.7);font-size:0.88rem;display:flex;gap:0.5rem;align-items:flex-start;">
+            <i class="fa-solid fa-location-dot" style="color:var(--saffron);margin-top:4px;flex-shrink:0;"></i>
+            <span>[Trust Address], Chennai, Tamil Nadu</span>
+          </li>
+          <li style="margin-top:0.5rem;">
+            <a href="tel:+917010489824" style="color:rgba(255,255,255,0.7);font-size:0.88rem;display:flex;gap:0.5rem;align-items:center;">
+              <i class="fa-solid fa-phone" style="color:var(--saffron);"></i> +91 70104 89824
+            </a>
+          </li>
+          <li>
+            <a href="mailto:estrust003@gmail.com" style="color:rgba(255,255,255,0.7);font-size:0.88rem;display:flex;gap:0.5rem;align-items:center;">
+              <i class="fa-solid fa-envelope" style="color:var(--saffron);"></i> estrust003@gmail.com
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>© 2026 Eyandradhai Seivom. All rights reserved. | Charitable Trust, Chennai, Tamil Nadu</p>
+  </div>
+</footer>
+
+<a href="https://wa.me/917010489824?text=Hello%20Eyandradhai%20Seivom%2C%20I%20would%20like%20to%20know%20more."
+   class="fab-whatsapp" target="_blank" rel="noopener noreferrer"
+   aria-label="Chat with us on WhatsApp">
+  <i class="fa-brands fa-whatsapp"></i>
+</a>
+<button class="back-top" aria-label="Back to top"><i class="fa-solid fa-arrow-up"></i></button>
+
+<script src="js/main.js"></script>
+</body>
+</html>
